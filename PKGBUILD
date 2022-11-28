@@ -1,0 +1,22 @@
+# Maintainer: Yichao Zhou <broken.zhou@gmail.com>
+pkgname=texlive-dummy
+pkgver=0.0.5
+pkgrel=2
+pkgdesc="Something to trick Arch into thinking it has its texlive packages installed."
+url="http://www.tug.org/texlive/"
+arch=('any')
+license=('GPL')
+depends=()
+optdepends=()
+makedepends=()
+replaces=()
+conflicts=('texlive-bin' $(pacman -Sgq texlive-most texlive-lang))
+provides=('texlive-bin' $(pacman -Sgq texlive-most texlive-lang))
+
+build() {
+   echo "Nothing to build"
+}
+
+package() {
+   echo "Nothing to package"
+}
