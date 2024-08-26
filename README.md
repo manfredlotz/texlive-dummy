@@ -1,3 +1,12 @@
+ ________________________________________________
+/ This repository has been moved to codeberg.    \
+\ https://codeberg.org/ManfredLotz/texlive-dummy /
+ ------------------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
 # texlive-dummy
 
 A texlive dummy package for archlinux
